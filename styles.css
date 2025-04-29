@@ -1,7 +1,13 @@
 /* CSS BY Chris Quintos */
 
 /* IMPORTED FONTS*/
-/* IMPORT "INTER" FROM GOOGLE FONTS"
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 /* CSS RESET */
 /* http://meyerweb.com/eric/tools/css/reset/

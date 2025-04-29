@@ -2,52 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<!-- ADD META TAG REQUIRED TO MAKE PAGE RESPONSIVE-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Vanguard- Leading the Future of Success. Premier strategic investment and business acceleration firm for high-growth enterprises.">
     <meta name="keywords" content="business growth, strategic investment, mergers, corporate consulting, digital transformation">
-<!-- ADD META TAG FOR AUTHOR AND YOUR NAME-->
+    <meta name="Author" content="Chris Quintos">
     <title>Vanguard | Leading the Future of Success</title>
-<!-- ADD LINK TO YOUR CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
+
 
 <body>
 <!-- WRAP CONTENT IN VALIDATED, SEMANTIC HTML5 (SEE HINTS FOLDER LINKED TO IN THE CANVAS INSTRUCTIONS)-->
-    Vanguard
-        Main Navigation
-            About
-            Services
-            Contact
+        <section id="navbar">
+        <h1>Vanguard</h1>
+            <h2>Main Navigation</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+        
+        <section id="consultation">
+            <h2>Innovation & Investment</h2>
+            <p>We empower businesses to lead the future with high-impact strategies, market intelligence, and financial solutions that drive success.</p>
+            <button>Request a Consultation</button>
+        </section>
 
-        Innovation & Investment
-        We empower businesses to lead the future with high-impact strategies, market intelligence, and financial solutions that drive success.
-        Request a Consultation
+        <section id="expertise">
+            <h2>Our Expertise. Your Edge.</h2>
+            <p>We redefine success by leveraging AI-driven analytics, market intelligence, and high-yield investment strategies to propel businesses forward. Whether you're looking to scale, optimize, or dominate, our strategic expertise delivers results.'</p>
+        </section>
 
-        Our Expertise. Your Edge.
-        We redefine success by leveraging AI-driven analytics, market intelligence, and high-yield investment strategies to propel businesses forward. Whether you're looking to scale, optimize, or dominate, our strategic expertise delivers results.'
+        <section id="offers">
+        <h2>What We Offer</h2>
+            <h3>Strategic Growth Consulting</h3>
+            <p>Unlock new revenue streams and optimize market expansion strategies.</p>
 
-        What We Offer
-            Strategic Growth Consulting
-            Unlock new revenue streams and optimize market expansion strategies.
+            <h3>High-Impact Investment Solutions</h3>
+            <p>Maximize returns with data-driven portfolio management.</p>
 
-            High-Impact Investment Solutions
-            Maximize returns with data-driven portfolio management.
+            <h3>Business Acceleration & Mergers</h3>
+            <p>Identify opportunities for rapid growth and high-value acquisitions.</p>
 
-            Business Acceleration & Mergers
-            Identify opportunities for rapid growth and high-value acquisitions.
+            <h3>Digital Transformation</h3>
+            <p>Stay at the forefront of industry advancements with AI, blockchain, and automation.</p>
 
-            Digital Transformation
-            Stay at the forefront of industry advancements with AI, blockchain, and automation.
+            <h3>Exclusive Executive Advisory Services</h3>
+            <p>Personalized insights and leadership support for C-suite executives and high-net-worth investors.</p>
 
-            Exclusive Executive Advisory Services
-            Personalized insights and leadership support for C-suite executives and high-net-worth investors.
+            <h3>Corporate Innovation</h3>
+            <p>Strategic implementation of new ideas, technologies, and processes to drive business growth, enhance competitive advantage, and adapt to evolving market demands.</p>
+        </section>
 
-            Corporate Innovation
-            Strategic implementation of new ideas, technologies, and processes to drive business growth, enhance competitive advantage, and adapt to evolving market demands.
-
-            Proven Results
+        <section id="results">
+            <h2>Proven Results</h2>
             Our data-driven strategies have delivered outstanding ROI, leading to significant revenue growth.
 
-                Profits
+                <h3>Profits</h3>
                 Year
                 Revenue ($M)
                 Growth (%)
@@ -72,7 +89,7 @@
                 $420M
                 100%
 
-                Growth
+                <h3>Growth</h3>
 <!-- CODE PROVIDED FOR YOU, NOTHING TO DO FOR THE BAR CHART IN THE HTML-->
                     <div  id="bar-chart">
                         <div class="bar" data-year="2020" style="--height: 30%;"></div>
@@ -82,21 +99,36 @@
                         <div class="bar" data-year="2024" style="--height: 100%;"></div>
                     </div>
 
-        Contact Us
-        Want to take your business to the next level? Get in touch with our elite team today.
+                </section>
 
-            Full Name
-
-            Email Address
-
-            Company Name
-
-            Industry
-
-            How can we help you?
-
-            Submit
-
-        2025 Vanguard. All rights reserved. 
-        Email: info@vanguard.com 
+        <footer>  
+        <section id="contact"> 
+        <h2>Contact Us</h2>
+        <p>Want to take your business to the next level? Get in touch with our elite team today.</p>
+        
+        <form action="#" method="POST">
+            <label for="full-name">Full Name</label><br>
+            <input type="text" id="full-name" name="full-name"><br>
+          
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email"><br>
+          
+            <label for="company">Company Name</label><br>
+            <input type="text" id="company" name="company"><br>
+          
+            <label for="industry">Industry</label><br>
+            <input type="text" id="industry" name="industry"><br>
+          
+            <label for="message">How can we help you?</label><br>
+            <textarea id="message" name="message"></textarea><br>
+          
+            <button type="submit">Submit</button>
+          </form>
+        <address>
+        2025 Vanguard. All rights reserved.<br> 
+        <a href:mailto:info@vanguard.com >Email: info@vanguard.com </a><br>
         Phone: 480.123.4567
+
+        </address>
+    </section>    
+    </footer>     
